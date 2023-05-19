@@ -11,7 +11,7 @@ on:
       - 'Dockerfile'
 
 env:
-  REGISTRY_IMAGE: user/app
+  REGISTRY_IMAGE: berlin4apk/libnfc
 
 jobs:
   build:
