@@ -4,7 +4,7 @@
 #   docker run --privileged -v /dev/bus:/dev/bus -it --name mynfc mylibnfc /bin/sh
 #   docker exec -it mynfc /bin/sh
 #--------------------------------------------------------------------- 
-FROM alpine:3.18
+FROM alpine:3.17
 RUN apk add build-base autoconf automake libtool libusb-compat-dev git
 RUN autoconf --version
 RUN git clone https://github.com/nfc-tools/libnfc.git
